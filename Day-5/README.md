@@ -46,7 +46,7 @@ Worker node Components:
 Kubelet : This component exists inside worker node. Kubelet is responsible for creating pods. It is going to act as an agent. Something goes wring in the worker node, it communicates it to the master node.
 Container Runtime: Container Runtime is nothing but a docker, responsible for pulling the docker image, creating containers, starting the containers. It is responsible for managing the container-lifecycle.
 Kube-Proxy : kube-proxy is networking component in the worker node. kube-proxy is responsible for creating deployments, exposing applications over the internet.
-snap install kubectl --classic aws eks update-kubeconfig --name tarun-cluster --region ap-northeast-2 kubectl get nodes
+snap install kubectl --classic aws eks update-kubeconfig --name shraddha-cluster --region ap-northeast-2 kubectl get nodes
 
 When writing kubernetes manifest files, four field are important API version : It defines schema representation of objects. Kind : Defines what kinf of object you are creating. Meta-Data : Meta-data defines name of the object, if u want to use labels, we've to use meta-data. Spec : A spec defines behavior of the object.
 
